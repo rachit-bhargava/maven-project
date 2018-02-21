@@ -35,12 +35,6 @@ http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/cor
 		url="jdbc:derby:memory:muleEmbeddedDB;create=true"
 		doc:name="Derby Configuration" />
 
-	<http:listener-config
-		name="HTTP_Listener_Configuration1"
-		host="0.0.0.0"
-		port="8081"
-		doc:name="HTTP Listener Configuration" />
-
 	<jms:activemq-connector
 		name="Active_MQ"
 		brokerURL="vm://localhost"
